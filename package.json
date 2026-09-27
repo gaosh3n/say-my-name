@@ -1,0 +1,24 @@
+{
+    "name": "sequor",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "lint": "oxlint",
+        "lint:fix": "oxlint --fix",
+        "fmt": "oxfmt",
+        "fmt:check": "oxfmt --check",
+        "prepare": "husky"
+    },
+    "devDependencies": {
+        "@tsconfig/recommended": "^1.0.13",
+        "husky": "^9.1.7",
+        "lint-staged": "^17.6.0",
+        "oxfmt": "^0.70.0",
+        "oxlint": "^1.85.0",
+        "typescript": "^7.0.2"
+    },
+    "engines": {
+        "node": ">=22.18"
+    }
+}
